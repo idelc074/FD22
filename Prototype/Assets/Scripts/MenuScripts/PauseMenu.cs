@@ -53,4 +53,5 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = false;
         desiredMode = CursorLockMode.Confined;
     }
+
 }
