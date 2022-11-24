@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
 
     [SerializeField] private bool isPaused;
 
+
     CursorLockMode desiredMode;
 
 
@@ -42,11 +43,13 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void DeactivateMenu()
+    public void DeactivateMenu()
     {
         Time.timeScale = 1;
         AudioListener.pause = false;
         pauseMenuUi.SetActive(false);
+        isPaused = false;
+
         Cursor.visible = false;
         desiredMode = CursorLockMode.Confined;
     }
