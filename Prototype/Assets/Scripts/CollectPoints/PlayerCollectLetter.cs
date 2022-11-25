@@ -20,7 +20,7 @@ public class PlayerCollectLetter : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Label(new Rect(1250, 40, 200, 40), "Points: " + points);
+        GUI.Label(new Rect(1250, 40, 200, 40), "Lettres: " + points + "/10");
     }
 
 
