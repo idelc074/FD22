@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdLetter : MonoBehaviour
+public class TextAppear : MonoBehaviour
 {
-    public GameObject ThirdLetterText;
+    public GameObject LetterText;
 
     public void Start()
     {
-        ThirdLetterText.SetActive(false);
+        LetterText.SetActive(false);
     }
 
     public void OnMouseOver()
     {
-        ThirdLetterText.SetActive(true);
+        LetterText.SetActive(true);
     }
 
     public void OnMouseExit()
     {
-        ThirdLetterText.SetActive(false);
+        LetterText.SetActive(false);
     }
 }
