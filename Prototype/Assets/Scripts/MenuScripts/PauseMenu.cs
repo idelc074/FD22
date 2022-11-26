@@ -53,12 +53,4 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = false;
         desiredMode = CursorLockMode.Confined;
     }
-
-    public void HideMenu()
-    {
-        pauseMenuUi.SetActive(false);
-        Time.timeScale = 0;
-
-    }
-
 }
