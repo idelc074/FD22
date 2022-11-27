@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     CursorLockMode desiredMode;
 
-
+    
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -51,6 +51,6 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
 
         Cursor.visible = false;
-        desiredMode = CursorLockMode.Confined;
+        desiredMode = CursorLockMode.Locked;
     }
 }
