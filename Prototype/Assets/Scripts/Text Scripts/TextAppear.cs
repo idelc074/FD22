@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LettreExText : MonoBehaviour
+public class TextAppear : MonoBehaviour
 {
-    public GameObject LettreEx;
+    public GameObject LetterText;
 
     public void Start()
     {
-        LettreEx.SetActive(false);
+        LetterText.SetActive(false);
     }
-    
+
     public void OnMouseOver()
     {
-        LettreEx.SetActive(true);
+        LetterText.SetActive(true);
     }
-    
+
     public void OnMouseExit()
     {
-        LettreEx.SetActive(false);
+        LetterText.SetActive(false);
     }
 }

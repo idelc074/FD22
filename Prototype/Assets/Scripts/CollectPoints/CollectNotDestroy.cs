@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectLetter : MonoBehaviour
+public class CollectNotDestroy : MonoBehaviour
 {
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.name=="Player")
+        if (other.name == "Player")
         {
             other.GetComponent<PlayerCollectLetter>().points++;
-            Destroy(gameObject);
+            (gameObject).SetActive(false);
         }
     }
 }
