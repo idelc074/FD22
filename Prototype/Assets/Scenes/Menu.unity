@@ -1113,10 +1113,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Trouver les 10 lettres \xE9parpill\xE9s dans le Tribunal \xC9cole Gowlings."
+  m_text: "Trouver les 10 lettres \xE9parpill\xE9es dans le Tribunal-\xC9cole Gowlings
+    pour d\xE9couvrir une histoire d'amour.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1671,9 +1672,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pour sortir de l'exp\xE9rience, faire un clic sur la touche \xE9chappe
-    (esc.) pour faire appara\xEEtre la souris et faire un clic sur le X en haut \xE0
-    droite."
+  m_text: "Pour sortir de l'exp\xE9rience, faire un clic sur la touche \xE9chap (ESC.)
+    pour faire appara\xEEtre la souris et faire un clic sur le X en haut \xE0 droite."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

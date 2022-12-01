@@ -6,6 +6,9 @@ public class TextAppear : MonoBehaviour
 {
     public GameObject LetterText;
 
+    //Transform camera = Camera.main.transform;
+    //float dist = Vector3.Distance(camera.position, transform.position);
+
     public void Start()
     {
         LetterText.SetActive(false);
